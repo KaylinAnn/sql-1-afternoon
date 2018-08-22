@@ -1,0 +1,19 @@
+INSERT INTO Artist(
+ArtistId, Name
+)
+VALUES
+(1,'Kaylin'),(3,'Tom')
+
+
+SELECT * FROM Artist
+ORDER BY Name DESC LIMIT 10
+
+SELECT * FROM Artist
+ORDER BY Name  LIMIT 5
+
+Select * from Artist
+Where Name LIKE 'black%'
+
+Select * from Artist
+Where Name LIKE '%black%'
+
